@@ -1,4 +1,4 @@
- code .  [opnen  microsoft visual code]
+ <!-- code .  [opnen  microsoft visual code]
 ctrl + ? [comments lot of rows]
 ctrl + ~   [open the mvc termnial]
 prtscn     [open keyboard if the keybord is lock from writing]
@@ -18,11 +18,20 @@ gh repo create      [Push an existing local repository to GitHub]
  git push --set-upstream origin master
  git push  -u origin master
  gh repo view --web    [view the repository in the site]
- 
+  -->
  [to be ensure the project will run in any invaierment force the same packeges version]
  
  pipenv shell 
  pip freeze  
  pip freeze > requirements.txt [crate the txt file with the packages]
  pip install -r requirements.txt   [fourse to use this packages with ther version]
+
+ ------------
+
+ git init
+ git add .   [save everything]   [update the github repository]
+ git commit -m 'add html and css file'
+ git remote add orign https//github.com/ilang975/MyApp.git
+ git push -u origin master
+ gh repo view --web 
  
